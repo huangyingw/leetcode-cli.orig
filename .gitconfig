@@ -1,19 +1,15 @@
-[remote "github"]
-    url = git@github.com:huangyingw/submissions.git
-    fetch = +refs/heads/*:refs/remotes/github/*
-[remote "bitbucket"]
-    url = git@bitbucket.org:huangyingw/submissions.git
-    fetch = +refs/heads/*:refs/remotes/bitbucket/*
+[remote "origin"]
+	url = git@github.com:huangyingw/leetcode-cli.orig.git
+	fetch = +refs/heads/*:refs/remotes/origin/*
 [commit]
 	message = n
 [branch "master"]
-    remote = github
+    remote = origin
     merge = refs/heads/master
 [push]
-    remote = github
-    remote = bitbucket
+    remote = origin
 [gsync]
-    remote = github
+    remote = origin
     branch = master
 [merge]
 	allow = true
