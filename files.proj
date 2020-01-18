@@ -5,7 +5,6 @@
 "./prunefile.conf"
 "./prunefix.conf"
 "./setup.cfg"
-"./submissions/.gitconfig"
 "./submissions/1.two-sum.260837994.Accepted.leetcode.py"
 "./submissions/1.two-sum.260840740.Accepted.leetcode.py"
 "./submissions/1.two-sum.260841186.Accepted.leetcode.py"
