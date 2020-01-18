@@ -3,9 +3,9 @@
 	fetch = +refs/heads/*:refs/remotes/origin/*
 [commit]
 	message = n
-[branch "master"]
+[branch "dev"]
     remote = origin
-    merge = refs/heads/master
+    merge = refs/heads/dev
 [push]
     remote = origin
 [gsync]
