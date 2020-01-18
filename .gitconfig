@@ -1,0 +1,26 @@
+[remote "github"]
+    url = git@github.com:huangyingw/submissions.git
+    fetch = +refs/heads/*:refs/remotes/github/*
+[remote "bitbucket"]
+    url = git@bitbucket.org:huangyingw/submissions.git
+    fetch = +refs/heads/*:refs/remotes/bitbucket/*
+[commit]
+	message = n
+[branch "master"]
+    remote = github
+    merge = refs/heads/master
+[push]
+    remote = github
+    remote = bitbucket
+[gsync]
+    remote = github
+    branch = master
+[merge]
+	allow = true
+[vrun]
+	silent = false
+    show = true
+	async = false
+[deploy]
+	host = localhost
+	path = ~/myproject/git/interview/skygragon/leetcode-cli.orig
